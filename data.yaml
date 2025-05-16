@@ -1,0 +1,13 @@
+path: D:/Dinesh/Python resources/Python projects/OpenCV/Object detection/WarehouseObjectDetection/Package and label detection.v4i.yolov11
+train: ../train/images
+val: ../valid/images
+
+nc: 2
+names: ['label', 'package']
+
+roboflow:
+  workspace: packageandbarcode
+  project: package-and-label-detection-agjvl
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/packageandbarcode/package-and-label-detection-agjvl/dataset/4
